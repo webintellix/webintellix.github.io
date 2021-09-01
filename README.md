@@ -1,1 +1,0 @@
-# webintellix.github.io
