@@ -1,8 +1,19 @@
-:root {
-  --body-background: #f2f2f2;
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+:root { 
+  --body-background: #c2e3f2;
   --body-color: #444;
   --heading-color: black;
-  --action-color: #d64045;
+  --action-color: #18aef9;
+  --bulma-primary-h: 200deg;
+  --bulma-primary-s: 95%;
+  --bulma-primary-l: 54%;
+  --bulma-link-h: 192deg;
+  --bulma-link-s: 69%;
+  --bulma-link-l: 69%;
+  --bulma-info-h: 199deg;
+  --bulma-info-s: 65%;
+  --bulma-info-l: 85%;
 }
 
 body {
