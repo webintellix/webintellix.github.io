@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% render "hero", metadata: site.metadata, resource: resource %}
+{% render "about", metadata: site.metadata, resource: resource %}
+{% render "services", metadata: site.metadata, resource: resource %}
+
+<section class="main-content">
+  {{ content }}
+</section>

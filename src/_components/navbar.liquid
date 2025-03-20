@@ -1,11 +1,32 @@
-<header>
-  <img src="{{ '/images/logo.svg' | relative_url }}" alt="Logo" />
-</header>
+<nav class="navbar is-sticky-top is-light" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+          <img src="{{ '/images/webintellix_icon.png' | relative_url }}" alt="Webintellix Logo" />
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNavBar">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+  </div>
 
-<nav>
-  <ul>
-    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-    <li><a href="{{ '/about' | relative_url }}">About</a></li>
-    <li><a href="{{ '/posts' | relative_url }}">Posts</a></li>
-  </ul>
+  <div id="mainNavBar" class="navbar-menu">
+      <div class="navbar-start">
+          <a class="navbar-item" href="#">Why choose us?</a>
+          <a class="navbar-item" href="#">Services</a>
+          <a class="navbar-item" href="#">Use cases</a>
+          <a class="navbar-item" href="#">Testimonials</a>
+          <a class="navbar-item" href="#">About us</a>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+              <strong>Book call</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
 </nav>
