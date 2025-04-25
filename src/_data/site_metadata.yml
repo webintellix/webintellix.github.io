@@ -5,8 +5,12 @@
 # in the templates via {{ site.metadata.myvariable }}.
 
 title: Webintellix
-tagline: design. build. deploy.
+tagline: partner. build. grow.
 email: hello@webintellix.com
+logo: WebintellixLogoBlackText.png
+logo_blacktext: WebintellixBlackText.png
+logo_whitetext: WebintellixWhiteText.png
+logo_onlyblacktext: WebintellixBlackText.png
 description: >-
   Webintellix is a boutique, software development and technology services company that excels in transforming your business by catering to all your technology needs.
 google_analytics: G-2X7C9HCYVQ

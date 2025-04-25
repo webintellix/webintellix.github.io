@@ -1,18 +1,22 @@
 <footer>
-   <div class="fixed-grid has-3-cols has-1-cols-mobile has-3-cols-tablet has-3-cols-desktop">
+   <div class="fixed-grid has-3-cols has-1-cols-mobile has-3-cols-tablet has-3-cols-desktop has-3-cols-widescreen">
     <div class="grid is-3">
       <div class="cell">
-        <div class="footer-logo">{{metadata.title}}</div>
+        <div class="footer-logo">
+          <img src="{{ '/images/' | append: metadata.logo | relative_url }}" alt="Webintellix Logo" />
+          <p>a software development & </br> technology services company</p>
+        </div>  
       </div>
       <div class="cell">
-        <p>&copy; All rights reserved.</p>
+        <p>&copy; 2025 All rights reserved.</p>
+        <p>Made with ❤️ in Atlanta</p>
       </div>
       <div class="cell">
         <div class="social-icons">
-            <a href="https://www.facebook.com/webintellix/" target="_blank" aria-label="Facebook">Facebook<i class="fa fa-facebook" aria-hidden="true"></i></a> 
-            <a href="https://www.x.com/webintellix" target="_blank" aria-label="X">X<i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="hhttps://medium.com/@rupakg" target="_blank" aria-label="Medium">Medium<i class="fa fa-medium" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/rupakg/" target="_blank" aria-label="LinkedIn">LinkedIn<i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/webintellix/" target="_blank" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+            <a href="https://www.x.com/webintellix" target="_blank" aria-label="X"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/rupakg/" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="hhttps://medium.com/@rupakg" target="_blank" aria-label="Medium"><i class="fa fa-medium" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
