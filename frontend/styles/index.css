@@ -6,6 +6,7 @@
   --heading-color: black;
   --action-color: #18aef9;
   --secondary-color: #ffb088;
+  --tertiary-color: #f3f5f6;
   --bulma-primary-h: 200deg;
   --bulma-primary-s: 95%;
   --bulma-primary-l: 54%;
@@ -202,6 +203,16 @@ hr {
 }
 
 #about .subtitle {
+  color: var(--heading-color);
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+#why-choose-us {
+  background-color: var(--tertiary-color);
+}
+
+#why-choose-us .subtitle {
   color: var(--heading-color);
   font-size: 1.5rem;
   font-weight: 200;
